@@ -1,0 +1,22 @@
+/*
+nilai yang pertama adalah nilai nilai horizontal bayangan
+nilai kedua adalah nilai untuk rata kiri kanan bayagan
+nilai ke tiga adalah nilai blur radius banyangan
+nilai ke empat adalah nilai penyebaran bayangan
+dan yang terakhir adalah menentukan warna bayangan
+*/
+
+.box-1 {
+    margin-left:100px;
+    box-shadow:1px 1px 3px 0px grey;
+    width:100px;
+    height:100px;
+    text-align:center;
+    color:white;
+    background-color:#a0a0ee;
+    border-radius:10px
+}
+
+.text-1{
+    text-shadow: 1px 1px 3px grey;
+}

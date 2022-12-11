@@ -1,0 +1,39 @@
+.box{
+    background-color: rgb(203, 199, 245);
+    color: rgb(7, 4, 16);
+    padding: 10px 50px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.box2 {
+    background-color: rgb(203, 199, 245);
+    color: rgb(7, 4, 16);
+    padding: 10px 50px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    height: 50px;
+}
+.align-content{
+    display: flex;
+    background-color: grey;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    height: 500px;
+
+}
+
+.container{
+    display: flex;
+    background-color: grey;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    /* align-content: flex-start; */
+    height: 500px;
+
+}

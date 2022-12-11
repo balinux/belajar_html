@@ -1,0 +1,128 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    /* margin-right: 200px; */
+}
+
+#hero {
+    background-color: #FBFBFB;
+    /* background-color: #1544dc; */
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.menu {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu p {
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+    margin-right: 10px;
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+.logo {
+    color: orange;
+}
+
+.container-cta {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 200px;
+    height: 80%;
+    /* justify-content: space-between; */
+    /* background-color: aqua; */
+    /* border: solid 1px; */
+
+}
+
+.cta-left {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.cta-left .full-name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cta-left .skill {
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+.cta-left .btn-cta {
+    background-color: #FFB633;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 35px 2px 4px 0px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.cta-right {
+    flex-grow: 3;
+    position: relative;
+    /* background-color:purple; */
+    /* overflow: hidden; */
+}
+
+.cta-right .ilustration-1 {
+    position: absolute;
+    right: 20px;
+    order: 0;
+    align-self: center;
+    width: 100%;
+}
+
+.cta-right .photo-1 {
+    position: absolute;
+    order: 1;
+    left: 20;
+    height: 371px;
+    width: 313px;
+} 
+
+/* 
+.cta-right {
+    flex-grow: 2;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.cta-right .ilustration-1 {
+    position: absolute;
+    left: -110px;
+    order: 0;
+}
+
+.cta-right .photo-1 {
+    position: absolute;
+    order: 1;
+} */

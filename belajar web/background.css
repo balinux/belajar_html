@@ -1,0 +1,10 @@
+body{
+    /* background:yellowgreen;     */
+    background-image:url('background.jpg');
+    background-repeat:no-repeat;  
+    background-size:cover;
+}
+
+.text-white{
+    color:white;
+}
